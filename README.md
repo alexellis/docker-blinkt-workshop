@@ -39,26 +39,26 @@ This is a self-paced workshop, but we will have TAs on hand to help out. Please 
 
 The final part involves putting everything together to create an application. You can do this individually or pair up.
 
-### [Part 1 - Setup](https://github.com/alexellis/dockercon-blinkt/blob/master/1-SETUP.md)
+### [Part 1 - Setup](https://github.com/alexellis/docker-blinkt-workshop/blob/master/1-SETUP.md)
 
 Flash Raspbian, configure OTG networking and Internet Connection Sharing, then install Docker.
 
-### [Part 2 - Build](https://github.com/alexellis/dockercon-blinkt/blob/master/2-BUILD.md)
+### [Part 2 - Build](https://github.com/alexellis/docker-blinkt-workshop/blob/master/2-BUILD.md)
 
 Run your first ARM Docker container, learn about base image differences and prepare to work with GPIO. 
 
-### [Part 3 - Blinkt](https://github.com/alexellis/dockercon-blinkt/blob/master/3-BLINKT.md)
+### [Part 3 - Blinkt](https://github.com/alexellis/docker-blinkt-workshop/blob/master/3-BLINKT.md)
 
 Get familiar with the Blinkt and start hacking
 
-### [Part 4 - Web applications](https://github.com/alexellis/dockercon-blinkt/blob/master/4-WEB.md)
+### [Part 4 - Web applications](https://github.com/alexellis/docker-blinkt-workshop/blob/master/4-WEB.md)
 
 Understand how to create a Web application in Python and an IoT LED server
 
-### [Part 5 - Hack](https://github.com/alexellis/dockercon-blinkt/blob/master/5-HACK.md)
+### [Part 5 - Hack](https://github.com/alexellis/docker-blinkt-workshop/blob/master/5-HACK.md)
 
 Put everything you've learnt into practice on a larger application.
 
-### [Conclusion](https://github.com/alexellis/dockercon-blinkt/blob/master/CONCLUSION.md)
+### [Conclusion](https://github.com/alexellis/docker-blinkt-workshop/blob/master/CONCLUSION.md)
 
 Find out how to use your Pi Zero at home and where to find more great content. 
