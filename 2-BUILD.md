@@ -50,7 +50,7 @@ Now let's start a container with an interactive shell:
 $ docker run -p 80:80 --name web -ti armhf/alpine:latest sh
 ```
 
-If you're running behind a proxy then make sure you head over to the [proxy setup guide](https://github.com/alexellis/dockercon-blinkt/blob/master/PROXIES.md):
+If you're running behind a proxy then make sure you head over to the [proxy setup guide](https://github.com/alexellis/docker-blinkt-workshop/blob/master/PROXIES.md):
 
 ```
 $ docker run -e http_proxy=$http_proxy -e https_proxy=$https_proxy \
