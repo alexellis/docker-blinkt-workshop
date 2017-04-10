@@ -91,7 +91,7 @@ $ ssh pi@raspberrypi.local
 
 You won't have any internet access yet, so we will need to enable internet connection sharing on your laptop.
 
-> If you are working behind a restrictive or corporate network you will need to consult the [proxy guide](https://github.com/alexellis/dockercon-blinkt/blob/master/PROXIES.md). Skip section 1.4.
+> If you are working behind a restrictive or corporate network you will need to consult the [proxy guide](https://github.com/alexellis/docker-blinkt-workshop/blob/master/PROXIES.md). Skip section 1.4.
 
 > Pro tip: if you don't like typing passwords in type in `ssh-keygen` (accepting defaults) followed by `ssh-copy-id pi@raspberrypi.local`
 
