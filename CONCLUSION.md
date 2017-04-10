@@ -14,7 +14,9 @@ If you'd like to continue learning Docker for the Pi and maybe move on to the [R
 
 ### Using the Pi at home
 
-After you get home you can continue using your Pi Zero attached to your laptop or a PC with the red OTG cable, or you can purchase a WiFi / Ethernet USB dongle.
+After you get home you can continue using your Pi Zero attached to your laptop or a PC with the red OTG cable, or you can purchase a WiFi / Ethernet USB dongle. 
+
+> If you're using the Pi Zero W (newest edition) you won't need to purchase an additoinal dongle.
 
 **Connectivity:**
 
