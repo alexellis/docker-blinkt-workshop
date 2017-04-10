@@ -31,13 +31,17 @@ The Raspberry Pi uses Apple's Bonjour/Avahi service to advertise its IP address.
 
 * [Bonjour Print Services for Windows](https://support.apple.com/kb/DL999?locale=en_US)
 
-> If you struggle to setup Internet Connection Sharing because you're on Linux or a picky WiFi network then please follow the guide for configuring a [Proxy server](https://github.com/alexellis/dockercon-blinkt/blob/master/PROXIES.md).
+> If you struggle to setup Internet Connection Sharing because you're on Linux or a picky WiFi network then please follow the guide for configuring a [Proxy server](https://github.com/alexellis/docker-blinkt-workshop/blob/master/PROXIES.md).
 
 ### Workshop format
 
-This is a self-paced workshop, but we will have TAs on hand to help out. Please let us know if you would like some help or to ask a question. The workshop starts with Part 1 which involves setting up the Pi and Blinkt then moves onto building Docker images and programming the Blinkt.
+This is a self-paced workshop designed for Dockercon. It starts with Part 1 which involves setting up the Pi and Blinkt then moves onto building Docker images and programming the Blinkt.
 
 The final part involves putting everything together to create an application. You can do this individually or pair up.
+
+**Dockercon notes:**
+
+> We will have TAs on-hand to help out. Please let us know if you need help or if things aren't working right.
 
 ### [Part 1 - Setup](https://github.com/alexellis/docker-blinkt-workshop/blob/master/1-SETUP.md)
 
