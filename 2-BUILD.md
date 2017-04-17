@@ -35,7 +35,7 @@ $ docker pull armhf/alpine:latest
 
 If you're unfamiliar with working with a Linux system or how to code on a Raspberry Pi please read this guide:
 
-* [Coding on a Raspberry Pi](https://github.com/alexellis/dockercon-blinkt/blob/master/CODING.md)
+* [Coding on a Raspberry Pi](https://github.com/alexellis/docker-blinkt-workshop/blob/master/CODING.md)
 
 This helps explain:
 
