@@ -160,7 +160,7 @@ $ pwd
 Now we can share that folder into our Blinkt container with a (bind mount) and the `-v` flag:
 
 ```
-docker run --privileged -v `pwd`:/root/ -ti blinkt bash
+docker run --privileged -v `pwd`:/root/examples -ti blinkt bash
 ```
 
 **Notes on live coding:**
