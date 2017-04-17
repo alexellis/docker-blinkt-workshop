@@ -4,7 +4,7 @@ Now we can control our Blinkt from the command-line or put it into an infinite l
 
 ### 4.1 Python Flask
 
-Python Flask is a framework that lets you turn your application into a web-server with very little effort. We will use it for the next task. 
+Python Flask is a framework that lets you turn your application into a web-server with very little effort. We will use it for the next task.
 
 **Task: Build a temperature server**
 
@@ -42,7 +42,7 @@ def home():
     file.close()
     payload = json.dumps({ "temperature": data })
     return payload
-    
+
 if __name__ == '__main__':
 
     app.run(debug=False, host='0.0.0.0')
@@ -89,7 +89,7 @@ Kill the webserver with `docker rm -f web`
 
 **Task: return a formatted temperature**
 
-* Now update the Python code so that the milli-degrees temperature is returned in Celsius i.e. (42.0). 
+* Now update the Python code so that the milli-degrees temperature is returned in Celsius i.e. (42.0).
 * Include Fahrenheit in the output. The [conversion from Celsius to Fahrenheit](http://www.rapidtables.com/convert/temperature/celsius-to-fahrenheit.htm) is `(Celsius * 1.8 + 32)`.
 
 Example response:
@@ -233,7 +233,7 @@ def set_color():
     show()
 
     return json.dumps({"status": "OK", "r": red, "g": green, "b": blue })
-    
+
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0')
 ```
@@ -267,13 +267,13 @@ To access the LED server either install the Google Chrome extension (Postman) or
 ```
 $ curl -H "Content-type: application/json" -d '{"red": 10, "green":0, "blue":0 }' raspberrypi.local:5000/set_color
 
-{"status": "OK", "r": 100, "b": 0, "g": 0}
+{"status": "OK", "r": 10, "b": 0, "g": 0}
 ```
 
 *Turn the LEDs off*
 
 ```
-$ curl -H "Content-type: application/json" -d '{"red": 10, "green":0, "blue":0 }' raspberrypi.local:5000/set_color
+$ curl -H "Content-type: application/json" -d '{"red": 0, "green":0, "blue":0 }' raspberrypi.local:5000/set_color
 
 {"status": "OK", "r": 0, "b": 0, "g": 0}
 ```
@@ -326,7 +326,7 @@ When you've tried a few different combinations send an "off" signal, then kill t
 ```
 $ curl -H "Content-type: application/json" -d '{"red": 0, "green":0, "blue":0 }' raspberrypi.local:5000/set_color
 
-{"status": "OK", "r": 100, "b": 0, "g": 0}
+{"status": "OK", "r": 0, "b": 0, "g": 0}
 
 $ docker rm -f setcolors
 ```
