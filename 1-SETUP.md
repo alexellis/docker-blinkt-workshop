@@ -107,7 +107,9 @@ If you're on Windows then open Control Panel and look for Network Connections an
 
 > On Ubuntu Linux Internet Connection Sharing can be enabled through Network Manager, but if you can't enable sharing for whatever reason then installing a Squid Proxy server should enable you to get connected.
 
-If you've configured ICS correctly then you should be able to type in `ping -c 1 google.com` and get a response back. Depending on the output you may want to manually edit `/etc/resolv.conf` and enter in `nameserver 8.8.8.8` on a new line.
+If you've configured ICS correctly then you should be able to type in `ping -c 1 google.com` and get a response back.
+
+Depending on the output you may want to manually edit `/etc/resolv.conf` and enter in `nameserver 8.8.8.8` on a new line. This file can be overwritten automatically, so if that starts happening make it read-only with this command: `sudo chattr +i /etc/resolv.conf`.
 
 ### 1.5 Install Docker
 
