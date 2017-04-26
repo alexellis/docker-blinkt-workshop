@@ -271,8 +271,12 @@ Fortunately Docker has a very effective caching mechanism and if you issued anot
 
 > For the Pi it's especially important to keep the changing parts such as the application source-code near the end of the file so that only the affected parts need to be re-built each time you change something.
 
-In the meantime checkout some of the Python examples provided in the repository:
+In the meantime spend 5-10 minutes checking out some of the Python examples provided in the repository:
+
+Some of the examples require additional libraries and alterations to the Dockerfiles, so stick to the ones which run out of the box.
 
 * [Blinkt! examples](https://github.com/pimoroni/blinkt/tree/master/examples)
+
+**Question:**
 
 Which example does the Dockerfile invoke by default?
