@@ -23,20 +23,28 @@ To test the connectivity run `curl -v -x http://address_of_laptop:3218 https://w
 Now on the Raspberry Pi edit ~/.bash_profile and add these two lines:
 
 ```
-export http_proxy=http://address_of_laptop:3218
+export http_proxy=http://address_of_laptop:3128
 export https_proxy=http://address_of_laptop:3218
 ```
+
+Also run them on the shell or log out and in again.
 
 ### 1.1 `docker pull`
 
 To pull images from the Docker Hub you will need to update the systemd unit file on the Raspberry Pi with the IP address or name of your PC or Mac.
 
-Create the following file `/etc/systemd/system/docker.service.d/http-proxy.conf`:
+Make the following folder:
+
+```
+# sudo mkdir -p /etc/systemd/system/docker.service.d/
+```
+
+Now create the following file `/etc/systemd/system/docker.service.d/http-proxy.conf`:
 
 ```
 [Service]
-Environment="HTTP_PROXY=http://address_of_laptop:3218"
-Environment="HTTPS_PROXY=http://address_of_laptop:3218"
+Environment="HTTP_PROXY=http://address_of_laptop:3128"
+Environment="HTTPS_PROXY=http://address_of_laptop:3128"
 ```
 
 Restart the Pi with `sudo reboot`.
