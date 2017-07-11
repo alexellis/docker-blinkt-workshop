@@ -113,7 +113,7 @@ Depending on the output you may want to manually edit `/etc/resolv.conf` and ent
 
 ### 1.5 Install Docker
 
-From your SSH session type in `curl -sSL get.docker.com | sudo -E sh`, this will setup Docker on your Pi.
+From your SSH session type in `curl -sSL https://get.docker.com | sudo -E sh`, this will setup Docker on your Pi.
 
 ![Docker installation](http://blog.alexellis.io/content/images/2016/12/Screen-Shot-2016-12-20-at-8-51-25-PM.png)
 
