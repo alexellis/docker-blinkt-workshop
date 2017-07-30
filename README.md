@@ -8,6 +8,10 @@
 
 * You will also get a chance to play with Docker Swarm on your Pi to deploy a micro-service. And, you will take home a free Raspberry Pi Zero kit, including a super bright Pimoroni Blinkt! 8-LED RGB add-on.
 
+**Discount on hardware for this workshop**
+
+This workshop was originally designed for Dockercon 2017 in Austin. You can read the workshop notes and get a 10% discount off the hardware kit here: [Dockercon 2017 - Captain's Log](https://blog.alexellis.io/dockercon-2017-captains-log/).
+
 ### Pre-requisites
 
 * Install a text editor
@@ -35,11 +39,13 @@ The Raspberry Pi uses Apple's Bonjour/Avahi service to advertise its IP address.
 
 ### Workshop format
 
-This is a self-paced workshop designed for Dockercon. It starts with Part 1 which involves setting up the Pi and Blinkt then moves onto building Docker images and programming the Blinkt.
+This is a self-paced workshop designed to be followed in a class or individually. It starts with Part 1 which involves setting up the Pi and Blinkt LED board then moves onto building Docker images, programming the LEDs and creating up a cluster.
 
-The final part involves putting everything together to create an application. You can do this individually or pair up.
+The final part involves putting everything together to create an application. If you're taking part in a class you can do this last part individually or pair up.
 
-**Dockercon notes:**
+The hardware you need is described in [Part 1 - Setup](https://github.com/alexellis/docker-blinkt-workshop/blob/master/1-SETUP.md) and you can get a [10% discount from Pimoroni](https://blog.alexellis.io/dockercon-2017-captains-log/) if needed.
+
+**Class notes:**
 
 > We will have TAs on-hand to help out. Please let us know if you need help or if things aren't working right.
 
