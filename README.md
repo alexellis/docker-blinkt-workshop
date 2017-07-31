@@ -72,3 +72,7 @@ Put everything you've learnt into practice on a larger application.
 ### [Conclusion](https://github.com/alexellis/docker-blinkt-workshop/blob/master/CONCLUSION.md)
 
 Find out how to use your Pi Zero at home and where to find more great content. 
+
+**Get in touch**
+
+You can follow me on [Twitter @alexellisuk](https://twitter.com/alexellisuk) or read more about [Docker and Raspberry Pi on my blog](https://blog.alexellis.io/).
